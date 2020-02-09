@@ -1,0 +1,12 @@
+// 将设置放入此文件中以覆盖默认设置
+{
+  "eslint.options": {
+    "extensions": [
+        ".js",
+        ".ts",
+        ".jsx",
+        ".tsx"
+    ],
+    "plugins": []
+  }
+}
