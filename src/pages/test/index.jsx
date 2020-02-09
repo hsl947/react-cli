@@ -1,8 +1,18 @@
 import React from 'react'
-import './index.less'
+import Style from './Style.module.less'
+import { Input  } from 'antd'
 
 const Demo = () => {
-	return <div>123</div>
+
+	return (
+		<>
+			<Input placeholder="Basic usage" />
+			<div className={Style.div}>
+				123
+				<span className={Style.span}>456</span>
+			</div>
+		</>
+	)
 }
 
 export default Demo

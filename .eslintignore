@@ -1,5 +1,5 @@
-src/**/test/**
 src/serviceWorker.js
 src/App.test.js
 src/setupTests.js
 /test.jsx
+customize-cra.json

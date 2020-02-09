@@ -9,6 +9,11 @@ const router = () => {
 		<Router>
 			<Route
 				component={Home}
+				exact
+				path="/"
+			/>
+			<Route
+				component={Home}
 				path="/home"
 			/>
 		</Router>
